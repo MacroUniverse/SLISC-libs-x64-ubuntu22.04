@@ -1,0 +1,1 @@
+compiled on surface pro 7+, ubuntu 22.04 desktop
