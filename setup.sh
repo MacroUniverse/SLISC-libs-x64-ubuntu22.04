@@ -13,7 +13,7 @@ ADD="source ../SLISC0/make/lib_append.sh $PWD"
 
 $ADD/arb-2.23.0
 $ADD/arpack-ng-3.8.0
-# $ADD/boost-1.80.0
+$ADD/boost-1.80.0
 $ADD/flint2-2.9.0
 $ADD/gmp-6.1.2
 $ADD/gsl-2.7.1
