@@ -14,7 +14,10 @@ done
 ADD="source ../SLISC0/make/lib_prepend.sh $PWD"
 
 $ADD/arb-2.23.0
-$ADD/arpack-ng-3.8.0
+$ADD/arpack-ng64-shared-3.8.0
+$ADD/arpack-ng64-static-3.8.0
+$ADD/arpack-ng-shared-3.8.0
+$ADD/arpack-ng-static-3.8.0
 $ADD/arpackpp-2.3.0
 $ADD/boost-1.80.0
 $ADD/eigen-3.4.0
@@ -23,11 +26,11 @@ $ADD/gmp-6.1.2
 $ADD/gsl-2.7.1
 $ADD/lapack64-shared-3.10.1
 $ADD/lapack64-static-3.10.1
-# $ADD/lapackpp-2.5.4
 $ADD/lapack-shared-3.10.1
 $ADD/lapack-static-3.10.1
 $ADD/mpfr-4.1.0
 $ADD/mplapack-2.0.1
 $ADD/sqlite-3.40.0
+# $ADD/lapackpp-2.5.4
 # $ADD/boost-filesystem-*
 # $ADD/boost-1.76.0*

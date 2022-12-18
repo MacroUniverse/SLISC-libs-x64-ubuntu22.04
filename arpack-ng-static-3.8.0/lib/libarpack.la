@@ -5,13 +5,13 @@
 # It is necessary for linking the library.
 
 # The name that we can dlopen(3).
-dlname='libarpack.so.2'
+dlname=''
 
 # Names of this library.
-library_names='libarpack.so.2.1.0 libarpack.so.2 libarpack.so'
+library_names=''
 
 # The name of the static archive.
-old_library=''
+old_library='libarpack.a'
 
 # Linker flags that cannot go in dependency_libs.
 inherited_linker_flags=''
@@ -38,4 +38,4 @@ dlopen=''
 dlpreopen=''
 
 # Directory that this library needs to be installed in:
-libdir='/home/docker/libs/arpack/lib'
+libdir='/home/docker/libs/arpack32-a/lib'
