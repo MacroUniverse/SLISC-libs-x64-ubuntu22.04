@@ -3,7 +3,7 @@
 echo ":: initializing SLISC0-libs-x64-ubuntu22.04"
 
 # recover split files due to github filesize limitation
-FILES="flint2-2.9.0/lib/libflint.a"
+FILES="flint2-2.9.0/lib/libflint.a mkl64-2022.1.0/lib/libmkl_core.a"
 for FILE in $FILES
 do
 if [[ ! -f "$FILE" ]]; then
@@ -31,6 +31,7 @@ $ADD/lapack-static-3.10.1
 $ADD/mpfr-4.1.0
 $ADD/mplapack-2.0.1
 $ADD/sqlite-3.40.0
+$ADD/mkl64-2022.1.0
 # $ADD/lapackpp-2.5.4
 # $ADD/boost-filesystem-*
 # $ADD/boost-1.76.0*
