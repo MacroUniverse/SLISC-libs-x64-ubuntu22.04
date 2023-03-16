@@ -32,6 +32,3 @@ $ADD/mpfr-4.1.0
 $ADD/mplapack-2.0.1
 $ADD/sqlite-3.40.0
 $ADD/mkl64-2022.1.0
-# $ADD/lapackpp-2.5.4
-# $ADD/boost-filesystem-*
-# $ADD/boost-1.76.0*
