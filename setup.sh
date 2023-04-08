@@ -1,6 +1,6 @@
 # use `source setvars.sh` in here to setup
 
-echo ":: initializing SLISC0-libs-x64-ubuntu22.04"
+echo ":: initializing SLISC-libs-x64-ubuntu22.04"
 
 # recover split files due to github filesize limitation
 FILES="flint2-2.9.0/lib/libflint.a mkl64-2022.1.0/lib/libmkl_core.a"
